@@ -1,0 +1,18 @@
+Data field:
+The Hand class has a data field called cards, which is an ArrayList of String type.
+This data field is used to store the cards that are added to the hand.
+Each card is represented as a String.
+
+Constructor:
+The constructor for the Hand class is a method that is called when a new Hand object is created.
+It initializes the cards ArrayList to hold the cards for the hand.
+
+Methods:
+add(String card): This method adds a card to the hand by appending it to the cards ArrayList.
+total(): This method calculates the total value of the hand by iterating through the cards and summing their values based on their ranks.
+display(): This method displays the cards in the hand by iterating through the cards ArrayList and printing each card.
+
+Algorithm for add method:
+1. Start
+2. Add the given card to the cards ArrayList
+3. End
