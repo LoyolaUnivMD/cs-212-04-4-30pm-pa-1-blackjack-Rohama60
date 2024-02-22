@@ -1,13 +1,21 @@
 import java.util.ArrayList;
 
 public class Hand {
+    // Instance variable to store the cards in the hand
+
     private ArrayList<String> cards;
+
+    // constructor to initialize the cards ArrayList
     public Hand() {
         cards = new ArrayList<String>();
     }
+
+    // Method to add a card to the hand
     public void add(String card) {
         cards.add(card);
     }
+
+    // Method to calculate the total value of the cards in the hand
     public int total() {
         int totalValue = 0;
         for (String card : cards) {
@@ -52,6 +60,8 @@ public class Hand {
         }
         return totalValue;
     }
+
+    // Method to display the cards in the hand
     public void display() {
         for (String card : cards) {
             System.out.print(card + " ");

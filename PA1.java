@@ -9,12 +9,14 @@ public class PA1{
         playBlackjack();
     }
 
+    // Method to deal a card from the deck
     public static String dealCard() {
         String[] cards = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
         Random random = new Random();
         return cards[random.nextInt(cards.length)];
     }
 
+    // Method to calculate the score of the hand
     public static int calculateScore(List<String> hand) {
         int score = 0;
         int numAces = 0;
@@ -42,6 +44,7 @@ public class PA1{
         return score;
     }
 
+    // Method to play the Blackjack game
     public static void playBlackjack() {
         List<String> dealerHand = new ArrayList<>();
         dealerHand.add(dealCard());
@@ -82,6 +85,8 @@ public class PA1{
         int dealerScore = calculateScore(dealerHand);
         playerScore = calculateScore(playerHand);
         System.out.println("Dealer: " + String.join(" ", dealerHand));
+
+        // Displays the dealer's score
         System.out.println(dealerScore);
 
         if (dealerScore > 21 || (playerScore <= 21 && playerScore > dealerScore)) {

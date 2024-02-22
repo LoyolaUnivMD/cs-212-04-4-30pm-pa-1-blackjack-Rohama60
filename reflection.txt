@@ -1,0 +1,14 @@
+What is the most challenging thing you experienced?
+- Since I didn't know how to play black jack it was challenging for me a bit more since I needed to learn the game and
+learn how to code it. Also using the array list was challenging since I was just getting to understand it.
+
+How did you overcome it? Anything you would do differently given what you know now.
+- I had to watch few videos to understand the game and how it's played and for the array thing, I was able to use my notes
+and search more about it to understand how it worked.
+
+What did you like about working with classes and what was difficult?
+- Classes makes my codes more organize and easy to use I would say. It takes time to get use to it but after you understand
+it, it is good using classes.
+
+How you felt about the step up in difficulty between this and PA0.
+- It was very different and a big step up from PA0 and much more difficult since array was added to this one and also random.
